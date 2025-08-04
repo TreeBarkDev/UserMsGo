@@ -1,0 +1,47 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built by 'go test -c'
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to ignore vendor/)
+vendor/
+
+# Go workspace file
+go.work
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+
+# MacOS specific
+.DS_Store
+
+# Linux trash folder
+.Trash-*
+
+# Coverage reports
+coverage.out
+
+# Generated files by protoc or other tools (adjust as needed)
+*.pb.go
+
+# If you generate Go module sums
+go.sum
+
+# Optional: Ignore your binary output directory if you use one (e.g. bin/)
+bin/
